@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.platform     = :ios, "11.0"
+  s.platform     = :ios, "9.0"
 
   s.name         = "SwiftFlow"
   s.version      = "1.0.0"
