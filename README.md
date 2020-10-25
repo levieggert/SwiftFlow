@@ -23,7 +23,7 @@ end
 ```
 ### Brief Overview Of Classes
 SwiftFlow is broken into these classes.
-- **Flow** This class handles flow navigation by push, set, or present.  All flows have a navigation controller and an optional parent FlowDelegate for communicating navigation to it's parent flow.  The parent FlowDelegate is typically used when a flow is exited (dismissed, back navigation) and the parent flow needs dismiss the child flow or do cleanup.
+- **Flow** This class handles flow navigation by push, set, or present.  All flows have a navigation controller and an optional parent FlowDelegate for communicating navigation to it's parent flow.  The parent FlowDelegate is typically used when a flow is exited (dismissed, back navigation) and the parent flow needs to dismiss the child flow or do cleanup.
 
 - **FlowDelegate** A protocol that Flow adopts for handling navigation steps (actions).  A step conforms to protocol FlowStepType.  Here you can provide your own FlowStepType in the form of an enum where each case represents a navigation action.  For example, user taps continue button from the welcome screen.
 
