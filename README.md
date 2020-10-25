@@ -34,3 +34,6 @@ SwiftFlow is broken into these classes.
 - **FlowStepType** A protocol that is passed to the FlowDelegate's navigate function.  Your custom enum will adopt this protocol and provide cases as navigation steps (actions).
 
 ### How To Use SwiftFlow
+For now you can take a look at the example project (Example/SwiftFlow-Example) to see how flow's are setup.
+
+More to come here...
